@@ -1,0 +1,353 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ------------------------------------------------------------1920---------------------------------------------------------------- */
+
+@media (max-width: 1920px) {
+  .wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .logo_box img {
+    display: block;
+    margin: 73px auto 0;
+  }
+
+  h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #f39801;
+    margin-top: 35px;
+  }
+
+  h2 {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(
+      90deg,
+      #ffdea7 0%,
+      #ffdea7 5%,
+      #fdbd51 15%,
+      #fdbd51 20%,
+      #f39801 40%,
+      #f39801 70%,
+      #fdbd51 80%,
+      #fdbd51 85%,
+      #ffdea7 95%,
+      #ffdea7 100%
+    );
+  }
+
+  .btn_term {
+    border-radius: 3pt;
+    margin: 53px auto 0;
+    width: 638px;
+    height: 154px;
+    background: #fff100;
+    box-shadow: 2px 2px 5px #e2e2e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn_manual {
+    border-radius: 3pt;
+    margin: 41px auto 0;
+    width: 638px;
+    height: 154px;
+    background: #fff100;
+    box-shadow: 2px 2px 5px #e2e2e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn_term .content,
+  .btn_manual .content {
+    padding-left: 29px;
+  }
+
+  .btn_term .tittle,
+  .btn_manual .tittle {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  .btn_term .tittle span,
+  .btn_manual .tittle span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+
+  .btn_term .arrow,
+  .btn_manual .arrow {
+    padding-right: 17px;
+  }
+
+  .btn_close {
+    box-shadow: 2px 2px 5px #e2e2e2;
+    width: 311px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+    border-radius: 3pt;
+    text-align: center;
+    background: #292929;
+    margin: 75px auto 0;
+  }
+
+  .logo_company img {
+    display: block;
+    margin: 20px auto 0;
+  }
+}
+
+/* ------------------------------------------------------------768------------------------------------------------------------------ */
+
+@media (max-width: 768px) {
+  .wrap {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .logo_box img {
+    display: block;
+    margin: 73px auto 0;
+  }
+
+  h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #f39801;
+    margin-top: 35px;
+  }
+
+  h2 {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(
+      90deg,
+      #ffdea7 0%,
+      #ffdea7 5%,
+      #fdbd51 15%,
+      #fdbd51 20%,
+      #f39801 40%,
+      #f39801 70%,
+      #fdbd51 80%,
+      #fdbd51 85%,
+      #ffdea7 95%,
+      #ffdea7 100%
+    );
+  }
+
+  .btn_term {
+    border-radius: 3pt;
+    margin: 35px auto 0;
+    width: 90%;
+    height: 86px;
+    background: #fff100;
+    box-shadow: 2px 2px 5px #e2e2e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn_manual {
+    border-radius: 3pt;
+    margin: 17px auto 0;
+    width: 90%;
+    height: 86px;
+    background: #fff100;
+    box-shadow: 2px 2px 5px #e2e2e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn_term .content,
+  .btn_manual .content {
+    padding-left: 29px;
+  }
+
+  .btn_term .tittle,
+  .btn_manual .tittle {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .btn_term .tittle span,
+  .btn_manual .tittle span {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+  }
+
+  .btn_term .arrow,
+  .btn_manual .arrow {
+    padding-right: 17px;
+  }
+
+  .btn_close {
+    box-shadow: 2px 2px 5px #e2e2e2;
+    width: 311px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+    border-radius: 3pt;
+    text-align: center;
+    background: #292929;
+    margin: 75px auto 0;
+  }
+
+  .logo_company img {
+    display: block;
+    margin: 20px auto 0;
+  }
+}
